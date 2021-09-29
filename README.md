@@ -1,8 +1,8 @@
 # kNN-Classifier
 **Frame-level six-class vowel classification experiment**
 
-
-Problem Statement:
+**
+Problem Statement:**
 
 Record each of the following six vowels (V1, V2, V3, V4, V5, V6)
 V1 as in Hid
@@ -15,5 +15,5 @@ in a sustained manner for at least 1 second at 16kHz. Record each vowel separate
 
 Report the classification accuracy using all three features on the test set for K=1, 5, 10, 50, 100, 500, 1000 in the kNN classifier.
 
-Results:
+**Results:**
 ![image](https://user-images.githubusercontent.com/79351706/135350071-87cf56b1-74e5-4fbc-a7ce-d0c81737d4ad.png)
