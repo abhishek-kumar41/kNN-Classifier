@@ -11,6 +11,8 @@ V5 as in Hod
 V6 as in Hood
 in a sustained manner for at least 1 second at 16kHz. Record each vowel separately for ten times. Trim 1second of vowel from each recording. First eight recordings of all vowels form the training set and remaining two from all vowels form the testset. Carry out a frame-level six-class vowel classification experiment using kNN classifier. The accuracy of the classification is computed as the percentage of frames correctly classified in the test set. For this purpose, consider a frame length of 20msec and a frame shift of 10msec. As a representative feature vector in each frame, experiment with three features: 1) 2-dimensional comprising first and second formants, 2) 13-dimensional mel frequency cepstral coefficients (MFCCs) , 3) 12-dimensional MFCCs excluding the 0-th coefficient.
 
-Report the classification accuracy using all three features on the test set for K=1, 5, 10, 50, 100, 500, 1000 in the kNN classifier. 
+Report the classification accuracy using all three features on the test set for K=1, 5, 10, 50, 100, 500, 1000 in the kNN classifier.
+ 
 Report the confusion matrix for the value of K which resulted in the best classification accuracy. 
+
 Take all recordings in the test set and compute their spectrogram. Reconstruct the signal back from the spectrogram using the Griffin-Lim algorithm. Report the classification accuracy using these reconstructed signals in the test set.
