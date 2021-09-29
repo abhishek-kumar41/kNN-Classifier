@@ -1,7 +1,7 @@
 # kNN-Classifier
 Frame-level six-class vowel classification experiment
 
-Problem Statement:
+#Problem Statement:
 Record each of the following six vowels (V1, V2, V3, V4, V5, V6)
 V1 as in Hid
 V2 as in Head
