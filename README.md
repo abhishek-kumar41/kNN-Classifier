@@ -1,5 +1,5 @@
 # kNN-Classifier
-Frame-level six-class vowel classification experiment
+**Frame-level six-class vowel classification experiment**
 
 
 Problem Statement:
